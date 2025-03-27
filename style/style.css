@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+/* body{
+    width: 1200px;
+} */
+/* -------HEADER--------- */
+.header{
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 451px 8px 450px;
+}
+
+.header h3{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* --------MAIN----------- */
+main{
+    height: 700px;
+    background-color: rgba(51, 26, 26, 0.633);
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a{
+    padding-left: 18px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+.card-nav{
+    gap: 18px;
+    margin: 20px 533px 0 126.6px;
+}
+
+.cards-nav{
+    margin-top: 20px;
+}
+
+.bnt-nav{
+    display: block;
+    justify-items: center;
+    align-items: center;
+    padding-top: 297px;
+}
+
+h1{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 60.75px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bnt{
+    width: 204px;
+    height: 40px;
+    margin: 26px 341px;
+    color: white;
+    border-radius: 30px;
+    background-color: #A05B4E;
+    border-style: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bnt-nav button:hover{
+    color: black;
+}
