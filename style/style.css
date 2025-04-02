@@ -603,7 +603,6 @@ span {
     font-weight: 400;
     font-size: 24px;
     line-height: 28.8px;
-    letter-spacing: 0%;
     text-align: center;
     color: #F1F1DE;
 }
@@ -649,6 +648,7 @@ input::placeholder {
     text-align: right;
     text-transform: uppercase;
     color: #F1F1DE80;
+    padding-top: 40px;
 }
 
 .footer p:nth-child(2) {
